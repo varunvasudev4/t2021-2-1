@@ -1,4 +1,4 @@
-function fatcors(arrInp) {
+function factors(arrInp) {
     arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     arrOut = {}
     for (i of arr) {
@@ -13,4 +13,4 @@ function fatcors(arrInp) {
     console.log(arrOut);
 }
 
-fatcors([1, 2, 8, 9, 12, 46, 76, 82, 15, 20, 30])
+factors([1, 2, 8, 9, 12, 46, 76, 82, 15, 20, 30])
